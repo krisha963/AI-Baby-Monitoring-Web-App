@@ -1,8 +1,8 @@
-img = "";
+song = "";
 status = "";
 objects = [];
 function preload(){
-    song = loadSound("alarm_clock_1.mp3");
+    song = LoadSound("alarm_clock_1.mp3");
 }
 function setup(){
     canvas = createCanvas(380, 380);
